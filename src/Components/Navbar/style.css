@@ -57,3 +57,9 @@
 .nav-link {
   border-bottom: 1px solid white !important;
 }
+.navbar{
+  flex-wrap: nowrap !important;
+}
+.navbar-brand{
+  padding-left: 10px !important;
+}
