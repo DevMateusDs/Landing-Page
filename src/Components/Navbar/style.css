@@ -57,9 +57,19 @@
 .nav-link {
   border-bottom: 1px solid white !important;
 }
-.navbar{
-  flex-wrap: nowrap !important;
-}
+
 .navbar-brand{
   padding-left: 10px !important;
+}
+
+@media screen and (max-width:383px){
+  .navbar-brand{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width:313px){
+  .btn-flex{
+    padding-top: 5px !important;
+  }
 }
